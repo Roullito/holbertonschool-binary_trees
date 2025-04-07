@@ -1,0 +1,16 @@
+# Ignore les fichiers compilés (exécutables)
+a.out
+*.o
+*.out
+*.exe
+
+# Ignorer tous les fichiers sans extension (considérés comme exécutables)
+[^.]*
+
+# Autoriser les fichiers source et README
+!*.c
+!*.h
+!README.md
+
+# Ne pas ignorer les dossiers (pour permettre le suivi des fichiers dans les dossiers)
+!*/
